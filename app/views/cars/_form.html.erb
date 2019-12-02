@@ -21,7 +21,7 @@
       <%= f.label :model %>
       <%= f.text_field :model %>
       <br>
-      <% if isAdmin? || isSuperAdmin? %>
+      <% if isAdmin? || isSuperAdmin? || isCustomer? %>
         <%= f.label :hourlyRentalRate %>
         <%= f.number_field :hourlyRentalRate, min: 0, step: 0.01 %><br>
       <% elsif isCustomer? %>
