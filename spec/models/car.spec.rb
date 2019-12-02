@@ -3,7 +3,6 @@ require 'rails_helper'
 RSpec.describe Car, type: :model do
   
   background do
-  
     @car = Car.new(licensePlateNumber: "9F4J1LN",
                     manufacturer: "HERO HONDA MOTORS LTD",
                     model: "model5",
