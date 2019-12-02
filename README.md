@@ -54,8 +54,7 @@ CAR RENTAL SYSTEM IS Designed to connect car owners and people who would like to
 * ransack
 * better_errors
 * gem 'bcrypt'
-* rspec-rails
-* 
+* rspec-rails 
 * bootstrap-sass
-* follow  functiona
+* follow  function
 * comment function
