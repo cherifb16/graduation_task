@@ -9,6 +9,10 @@ $gray-medium-light: #eaeaea;
 
 body {
   padding-top: 60px;
+  background-image: url("serge.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 // section {
@@ -52,7 +56,12 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
-
+card-footer {
+  padding-top: 90px;
+  color: $gray-light;
+  margin-bottom: 30px;
+  text-align: center;
+}
 
 /* header */
 
